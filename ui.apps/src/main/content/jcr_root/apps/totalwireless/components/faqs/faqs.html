@@ -8,7 +8,7 @@
     <sly data-sly-list.faqs="${model.faqsList}">
       <div class="accordion-item">
         <button class="accordion-header">
-          ${faqs.question} ${faqsList.count}
+          ${faqs.question}
           <span class="arrow">&#9654;</span>
         </button>
         <sly data-sly-set.resourceNode="answer${faqsList.count}"></sly>
